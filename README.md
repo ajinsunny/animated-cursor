@@ -3,6 +3,8 @@
 
 This repository contains a React application that implements an animated cursor using Framer Motion.
 
+[https://github.com/ajinsunny/animated-cursor/blob/master/public/animation.gif]
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
