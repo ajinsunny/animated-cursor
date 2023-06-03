@@ -1,5 +1,5 @@
 * {
-  cursor: none;
+  cursor:grab;
 }
 .App {
   display: flex;

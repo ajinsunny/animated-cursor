@@ -9,7 +9,6 @@ function App() {
   });
 
   const [cursorVariant, setCursorVariant] = useState("default");
-  console.log(mousePosition);
 
   useEffect(() => {
     const mouseMove = (e) => {
@@ -24,17 +23,18 @@ function App() {
       window.removeEventListener("mousemove", mouseMove);
     };
   }, []);
+
   const variants = {
     default: {
       x: mousePosition.x - 16,
       y: mousePosition.y - 16,
     },
     text: {
-      height: 150,
-      width: 150,
-      x: mousePosition.x - 75,
-      y: mousePosition.y - 75,
-      backgroundColor: "red",
+      height: 50,
+      width: 50,
+      x: mousePosition.x - 25,
+      y: mousePosition.y - 25,
+      backgroundColor: "#ff000055",
       mixBlendMode: "difference",
     },
   };
